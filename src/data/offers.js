@@ -4,6 +4,10 @@ export const data = [
     image: "../../public/images/cih.jpg",
     loanAmount: "10,000DH",
     interestRate: "3.5%",
+    details: {
+      duration: 20,
+      monthlyPayment: 1000,
+    },
   },
   {
     name: "BMCE BANK",
