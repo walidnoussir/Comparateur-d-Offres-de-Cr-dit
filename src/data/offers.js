@@ -2,17 +2,17 @@ export const data = [
   {
     name: "CIH BANK",
     image: "../../public/images/cih.jpg",
-    loanAmount: "10,000DH",
-    interestRate: 0.035,
+    loanAmount: 10000,
+    interestRate: 0.1,
     details: {
-      duration: 20,
+      duration: 4,
       monthlyPayment: 1000,
     },
   },
   {
     name: "BMCE BANK",
     image: "../../public/images/bmce bank.png",
-    loanAmount: "10,000DH",
+    loanAmount: 10000,
     interestRate: 0.031,
     details: {
       duration: 10,
@@ -22,7 +22,7 @@ export const data = [
   {
     name: "ATTIJARIWAFA BANK",
     image: "../../public/images/attijariwafa bank.png",
-    loanAmount: "10,000DH",
+    loanAmount: 10000,
     interestRate: 0.039,
     details: {
       duration: 4,
@@ -32,7 +32,7 @@ export const data = [
   {
     name: "BANK OF AFRICA",
     image: "../../public/images/bank_africa.png",
-    loanAmount: "10,000DH",
+    loanAmount: 10000,
     interestRate: 0.042,
     details: {
       duration: 3,

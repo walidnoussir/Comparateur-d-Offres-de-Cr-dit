@@ -21,7 +21,7 @@ const Card = ({ offer, setIsOpen, setOffer, minRate }) => {
 
       <Headding>{offer.name}</Headding>
 
-      <Info value={offer.loanAmount} title="Loan Amount">
+      <Info value={`${offer.loanAmount}DH`} title="Loan Amount">
         <CircleDollarSign className="bg-blue-300 text-blue-700 rounded-md" />
       </Info>
 

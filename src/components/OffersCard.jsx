@@ -6,7 +6,6 @@ const OffersCard = ({ setIsOpen, setOffer }) => {
   data.forEach((offer) => {
     if (offer.interestRate < minRate) minRate = offer.interestRate;
   });
-  console.log(minRate);
 
   return (
     <div className="h-[90%] w-full md:grid md:grid-cols-2 xl:grid-cols-3 lg:items-center lg:justify-center gap-2.5 p-4 space-y-2 overflow-y-auto">
