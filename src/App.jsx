@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <div className="bg-slate-200 h-screen w-full space-y-2">
-      <Headding>Comparateur d’Offres de Crédit</Headding>
+      <Headding>Comparateur d’Offres de Crédit 💸</Headding>
       <OffersCard setIsOpen={setIsOpen} setOffer={setOffer} />
       {isOpen && <Modal setIsOpen={setIsOpen} offer={offer} />}
     </div>
