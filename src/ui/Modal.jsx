@@ -7,7 +7,7 @@ const Modal = ({ setIsOpen, offer }) => {
 
   return (
     <div className="fixed inset-0 bg-slate-800/60 bg-opacity-50 items-center justify-center flex flex-col backdrop-blur-md">
-      <div className="w-[70%] bg-white py-8 px-12 rounded-md flex flex-col gap-4 relative">
+      <div className="w-[90%] h-[50%] md:w-[80%] lg:w-[70%] lg:h-[80%] overflow-y-scroll bg-white py-8 px-12 rounded-md flex flex-col gap-4 relative">
         <button
           className="absolute right-0 top-0 cursor-pointer p-0.5"
           onClick={() => setIsOpen(false)}
